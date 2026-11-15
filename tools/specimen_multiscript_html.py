@@ -402,7 +402,7 @@ HTML = f"""<!doctype html>
 
 <footer>
   <div class="wrap">
-    Kallar · v1.200 · SIL Open Font License 1.1 · Malayalam +
+    Kallar · SIL Open Font License 1.1 · Malayalam +
     Devanagari + Tamil + Telugu + Kannada · <a href="index.html">Malayalam
     specimen</a> · <a href="../README.md">README</a>
   </div>

@@ -54,7 +54,6 @@ Kallar lives at
 - [License](#license)
 - [Credits](#credits)
 - [Contributing](#contributing)
-- [Version history](#version-history)
 
 ---
 
@@ -424,8 +423,6 @@ make qa              # fontbakery on Malayalam Regular and Bold
 make qa-multiscript  # fontbakery on the four new Regular/Bold families
 ```
 
-`make kamalam` remains as a deprecated alias for the old v1.000 target name.
-
 ### Source layout
 
 | Path | What it is |
@@ -516,9 +513,6 @@ upstream licences are kept in `sources/donors/NotoSans*-OFL.txt`.
 The aperture engine, variable axis, Spectrum builds, metrics and specimens are
 Copyright 2026 The Kallar Project Authors.
 
-The legacy v0.2 from-scratch parametric draft is preserved in [`legacy/`](legacy/)
-and in `tools/glyphs_ml.py`.
-
 ---
 
 ## Credits
@@ -529,9 +523,6 @@ and in `tools/glyphs_ml.py`.
   Malayalam Computing (Manjari)
 - **Devanagari, Tamil, Telugu and Kannada script donors:** The Noto Project
   Authors
-- **Legacy v0.2 shaping engine:** adapted from
-  [Nupuram](https://gitlab.com/smc/fonts/Nupuram) by Santhosh Thottingal / SMC
-  (MIT)
 - **Sarvam inspiration:** the blue → orange spectrum and the gateway/lotus
   language are an homage to [Sarvam AI](https://www.sarvam.ai/brand)
 
@@ -556,22 +547,3 @@ base authors' copyright notices.
 
 If you use Kallar in a project, a small credit — “Typeface: Kallar” — is
 appreciated.
-
----
-
-## Version history
-
-| Version | Date | What changed |
-|---|---|---|
-| **1.200** | 2026-11-09 | Rebuilt all five families on the **Manjari** base: Manjari now supplies the shared Latin, digits, punctuation, spacing, metrics and Latin kerning; Noto Sans is used only as script donors for the four scripts Manjari does not contain; regenerated fonts, specimens and PDFs |
-| 1.100 | 2026-11-09 | Renamed the family to **Kallar**; added Devanagari, Tamil, Telugu and Kannada; added multiscript specimens and PDF |
-| 1.000 | 2026-11-09 | First production Malayalam release (as Ezhuthu Kamalam) |
-| 0.2 | 2023 | Legacy parametric draft: metric and letterform tuning, OTF/WOFF2, Makefile |
-| 0.1 | 2023 | Legacy from-scratch parametric Malayalam typeface |
-
-See [FONTLOG.txt](FONTLOG.txt) for details.
-
-> **A note on the name.** Kallar was previously developed as *Ezhuthu
-> Kamalam*. The v1.000 release and the legacy `ezhuthu` draft keep that
-> history. The GitHub repository was renamed from `ezhuthu` to `kallar`; old
-> GitHub URLs redirect to the new repository.

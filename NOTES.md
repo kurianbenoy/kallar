@@ -25,12 +25,9 @@ spectrum are visible.
 
 ## 2. Why Manjari is the skeleton
 
-The project's first two versions attempted a fully from-scratch parametric
-Malayalam design (`legacy/`, `tools/glyphs_ml.py`). That work proved the
-pipeline and the shaping stack, but matching the structural subtlety of a
-production Malayalam face — the exact placement of loops, the counter rhythm,
-the conjunct grammar — is a years-long project. For the production release we
-made a deliberate choice:
+Matching the structural subtlety of a production Malayalam face — the exact
+placement of loops, the counter rhythm, the conjunct grammar — is a
+years-long project. Kallar therefore makes a deliberate choice:
 
 - use **Manjari** (SIL OFL 1.1, by Santhosh Thottingal / SMC) as the
   structural foundation, because its loops and proportions are already a
@@ -169,8 +166,6 @@ variable fonts load, the APER slider changes the live instance, and the
 Builds are reproducible: `head.created`/`head.modified` are pinned to a fixed
 date and `recalcTimestamp` is disabled, so repeated `make kallar` runs produce
 byte-identical TTF and WOFF2 files. `make proofs` is deterministic too.
-
-The old `tests/test_font.py` still covers the legacy draft.
 
 ## 7. Fontbakery notes
 

@@ -16,9 +16,6 @@
   Font License 1.1. <https://github.com/notofonts>
   The donors supply only the script-specific letter structures that Manjari
   does not contain; they are not the base of the family.
-- **Legacy v0.2 parametric draft / shaping engine:** adapted from
-  **Nupuram** by Santhosh Thottingal / SMC, Copyright 2023 The Nupuram Project
-  Authors, MIT. <https://gitlab.com/smc/fonts/Nupuram>
 - **Sarvam inspiration:** the blue → orange spectrum and the gateway/lotus
   visual language are an homage to [Sarvam AI](https://www.sarvam.ai/brand).
   This project is independent and is not affiliated with or endorsed by
@@ -27,8 +24,7 @@
 ## License
 
 The font software and sources are released under the **SIL Open Font License
-1.1**. See [OFL.txt](OFL.txt). The legacy build tools retain their MIT
-attribution in the source files.
+1.1**. See [OFL.txt](OFL.txt).
 
 ## Vendored base checksums
 

@@ -24,7 +24,7 @@ from render import render_alpha  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(ROOT, "fonts")
 PROOFS = os.path.join(ROOT, "proofs")
-TMP = os.path.join(tempfile.gettempdir(), "ezhuthu_specimen")
+TMP = os.path.join(tempfile.gettempdir(), "kallar_specimen")
 os.makedirs(TMP, exist_ok=True)
 os.makedirs(PROOFS, exist_ok=True)
 
