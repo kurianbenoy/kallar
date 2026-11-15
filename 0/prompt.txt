@@ -1,0 +1,5 @@
+Remove all legacy and unnecessary things from this project. Like old font specimens, mention of the version history etc.
+
+---
+
+Commit and push all the file changes
